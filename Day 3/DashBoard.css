@@ -1,0 +1,143 @@
+.leftnav {
+    /* background-color: rgb(255, 255, 255); */
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    transform: translateY(-6rem);
+  }
+
+.log{
+  background-color: rgb(255, 255, 255); 
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(14.8rem);
+}
+  /* Style the links inside the navigation bar */
+  .leftnav a {
+    float: left;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.log a{
+  float: left;
+  color: #ff0000;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  /* Change the color of links on hover */
+  .leftnav a:hover {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+  }
+  .log a:hover{
+    background-color: #ff0000;
+    color: rgb(4, 5, 5);
+  }
+  
+  /* Add a color to the active/current link */
+  .leftnav a.active {
+    background-color: #04AA6D;
+    color: rgb(254, 254, 254);
+  }
+  .field{
+    transform: translateX(38rem);
+    font-size: x-large;
+    border-radius: 7px;
+    border-color: #ff0000;
+    color:#000000;
+    border-style:groove;
+    border-width: 3px;
+  }
+  /* body{
+    background-image: url('/Users/ujjual/appdev/src/pic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+  .hom{
+    font-size: 5rem;
+    text-align: center;
+    color: darkgray;
+    transform: translateX(28rem);
+    margin-top: 15rem;
+  }
+  .hea{
+    font-size: x-large;
+    margin-left: 190px;
+  }
+  .formss{
+    width:6rem;
+    transform: translateX(35rem);
+  }
+  .sr{
+    margin-top: -4rem;
+  }
+  .memb{
+    transform: translateX(39.5rem);
+    width:17rem;
+  }
+  
+  .heads{
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    color:bisque;
+  }
+.far1{
+  background-image: url('/src/Component/chicken.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links li a:hover {
+  color: #eaeaea;
+}
+.tim{
+  background-color: white;
+}
+
+.boxe1{
+  margin-left: 35rem;
+}
