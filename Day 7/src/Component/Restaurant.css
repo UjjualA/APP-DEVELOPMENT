@@ -1,0 +1,14 @@
+.bubt{
+    transform: translateY(-41rem);
+    position: fixed;
+}
+.card{
+    width:80vh;
+    height:30vh;
+    margin-left:50px;
+    transform: translateY(20px);
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+}
